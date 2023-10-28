@@ -13,13 +13,21 @@
 7. Now go to your cloudflare worker directory
 8. Now install this package
    ```bash
-   npm i cloudflare-telegram-bot
+   npm i cloudflare-telegram-bot@latest
    ```
 9. Now go to `src` directory
-10. Edit the index.js, remove all the codes and add this `require("cloudflare-telegram-bot");`
-11. Now run the worker
+10. Edit the index.js, remove all the codes and add this
+    ```
+    const bot = require("cloudflare-telegram-bot");
+    export default bot;
+    ```
+12. Now run the worker
     ```bash
     npm run dev
     ```
 
 ## Deployment
+1. Deploy your bot on the cloud
+   ```bash
+   npm run deploy
+   ```
