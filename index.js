@@ -59,7 +59,7 @@ function Bot(BOT_TOKEN, BASE_URL) {
   return [sendMessage, getFile];
 }
 
-export default {
+module.exports = {
   async fetch(request, env, ctx) {
     const { method } = request;
     if (method == "POST") {
