@@ -1,0 +1,22 @@
+{
+  "name": "cloudflare-telegram-bot",
+  "version": "1.0.0",
+  "description": "Cloudflare telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chitranjan-gupta/cloudflare-telegram-bot.git"
+  },
+  "keywords": [
+    "Bot"
+  ],
+  "author": "Chitranjan Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chitranjan-gupta/cloudflare-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/chitranjan-gupta/cloudflare-telegram-bot#readme"
+}
